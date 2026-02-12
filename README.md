@@ -1,6 +1,6 @@
 # teste
 
-COMANDOS BASICOS
+#COMANDOS BASICOS
 
   
   git init - inicializa um novo repositório Git e começa a acompanhar um diretório existente. Ele adiciona uma subpasta oculta dentro do diretório existente que contém a estrutura de dados interna necessária para o controle de versão.
@@ -24,32 +24,28 @@ COMANDOS BASICOS
   git push atualiza o repositório remoto com todos os commits feitos localmente em um branch.
 
 
-CRIAÇÃO DE UM NOVO REPOSITORIO
+#CRIAÇÃO DE UM NOVO REPOSITORIO
 
 
-  # create a new directory, and initialize it with git-specific functions
 git init my-repo
 
-# change into the `my-repo` directory
+
 cd my-repo
 
-# create the first file in the project
+
 touch README.md
 
-# git isn't aware of the file, stage it
+
 git add README.md
 
-# take a snapshot of the staging area
+
 git commit -m "add README to initial commit"
 
-# provide the path for the repository you created on github
+
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
 
-# push changes to github
 
-
-
-OQUE SAO BRANCHS
+#OQUE SAO BRANCHS
 
 
 As branches são versões separadas de um projeto.
